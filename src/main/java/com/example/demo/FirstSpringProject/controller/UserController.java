@@ -10,12 +10,8 @@ import java.util.logging.Logger;
 @RequestMapping("/user")
            public class UserController {
 
-  //  Logger log = (Logger) LoggerFactory.getLogger(UserController.class);
               @GetMapping("/createUser")
               public String createUser() {
-
-      //            log.info("insidede");
-
                return "Hello";
     }
 }
